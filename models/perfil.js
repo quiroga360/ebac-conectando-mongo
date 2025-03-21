@@ -11,7 +11,7 @@ const perfilSchema = new Schema({
     required: true,
   },
 }, {
-  collection: 'perfil' // Aqui força o nome correto da coleção
+  collection: 'perfil'
 });
 
-module.exports = Perfil;
+module.exports = perfilSchema;
